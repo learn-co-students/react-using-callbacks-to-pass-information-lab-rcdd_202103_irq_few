@@ -22,7 +22,7 @@ export default class Matrix extends Component {
       <div id="app">
         <ColorSelector />
         <div id="matrix">
-          {this.genMatrix()}
+          {this.genMatrixx()}
         </div>
       </div>
     )
