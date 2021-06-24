@@ -11,7 +11,7 @@ In React, **props** are used to pass information _down_ the component tree, from
 parents to children. In order to propagate information in the opposite
 direction, we can use callback functions, also passed down as props from parent
 components to children. However, because these functions are defined _in the
-parent_, **they will still be in that context if called from a child component**.
+parent_, **they will still be in that context if called from a child component**..
 
 This allows the callback to be _owned_ by a different component than the one
 invoking it. Once invoked, the callback can effect change in the component that
